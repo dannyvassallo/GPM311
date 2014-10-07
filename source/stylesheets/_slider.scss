@@ -1,0 +1,24 @@
+#myCarousel{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+h2{
+    margin: 0;     
+    color: #fff !important;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "PT Sans", sans-serif;
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+
+.slide1{
+	height: 100%;
+	background-image: url(http://dannyvassallo.com/MuseExport/images/cityscape.jpg);
+	background-size: cover;
+	background-position: center;
+}
