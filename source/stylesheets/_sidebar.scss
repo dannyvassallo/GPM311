@@ -1,0 +1,45 @@
+#sidebar{
+	position: fixed;
+	width: 315px;
+	top: 0px;
+	z-index: 9999;
+	background-color: white;
+	right: -9999px;
+}
+
+ul.sidebar{
+	padding-left: 0px !important;
+}
+
+ul.sidebar li{
+	height: 80px;
+	text-transform: uppercase;
+	list-style: none;
+	color: #646464;
+	letter-spacing: 2px;
+	width: 315px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	line-height: 19px;
+	font-size: 16px;
+	padding: 30px 60px;
+	border-top: solid 1px #ccc;
+	&:hover{
+		background-color: #29ABE2;
+		color: white;
+	}
+}
+
+.top{
+	background-color: #646464;
+	height: 80px;
+	text-align: right;
+}
+
+.navMenux{
+	height: 80px;
+	background-color: #29ABE2;
+	width: 80px;
+	text-align: center;
+	float: right;
+}
