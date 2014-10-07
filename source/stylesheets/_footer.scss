@@ -1,0 +1,40 @@
+/* Footer Css */
+
+#footer{
+	width: 100%;
+	background-color: #363839;
+	border-top: solid 10px #E6E6E6;
+	margin-top: 60px;
+	.container{
+		max-width: 1029px;
+		.row{
+			padding-top: 20px;
+			p{
+				padding-top: 20px;
+				color: #747474;
+				font-family: 'Pt Sans', sans-serif;
+				font-size: 13px;
+				font-weight: 400;
+				padding-right: 20px;
+			}
+		}
+	}
+}
+
+#copyright{
+	background-color: #282A2B;
+	padding-bottom: 22px;
+	.copyRText{
+		max-width: 1020px;
+		margin: 0 auto;
+		p{
+			padding-top: 20px;
+			color: #747474;
+			font-family: 'Pt Sans', sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+		}
+	}
+}
+
+/* End Footer Css */
