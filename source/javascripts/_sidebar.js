@@ -5,7 +5,7 @@ $(function(){
 	});
 
 	$('.navMenux').on('click', function(){
-		$('#sidebar').fadeOut( 500 ).animate({right:"-9999px"});
+		$('#sidebar').fadeOut( 500 ).animate({left:"-9999px"});
 	});
 
 });
