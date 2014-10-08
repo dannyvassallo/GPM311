@@ -3,16 +3,17 @@
 #myCarousel{
 	max-width: 1020px;
 	margin: 0 auto;
+        h2{
+            margin: 0;     
+            color: #fff !important;
+            padding-top: 90px;
+            font-size: 40px;
+            font-family: "PT Sans", sans-serif;
+            padding-bottom: 30px;
+            text-shadow: 2px 2px 4px #000;
+        }
 }
 
-h2{
-    margin: 0;     
-    color: #fff !important;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "PT Sans", sans-serif;
-    padding-bottom: 30px;
-}
 .item{
     background: #333;    
     text-align: center;
@@ -26,7 +27,13 @@ h2{
 }
 
 .slide1{
-		background-image: url(http://dannyvassallo.com/MuseExport/images/cityscape.jpg);
+		background-image: url(http://dannyvassallo.com/MuseExport/images/pothole_car.jpg);
+}
+.slide2{
+        background-image: url(http://dannyvassallo.com/MuseExport/images/traffic_light.jpg)
+}
+.slide3{
+        background-image: url(http://dannyvassallo.com/MuseExport/images/cityscape.jpg)
 }
 
 .carousel-indicators{
