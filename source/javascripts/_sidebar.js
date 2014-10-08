@@ -1,7 +1,7 @@
 $(function(){
 	$('.navbar-toggle').on('click', function(){
 		$('#sidebar').fadeIn( 1 );
-		$('#sidebar').animate({right:"0px"});
+		$('#sidebar').animate({left:"0px"});
 	});
 
 	$('.navMenux').on('click', function(){

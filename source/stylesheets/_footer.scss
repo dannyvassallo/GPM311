@@ -24,10 +24,21 @@
 #copyright{
 	background-color: #282A2B;
 	padding-bottom: 22px;
-	.copyRText{
+	.container{
 		max-width: 1020px;
-		margin: 0 auto;
+	}
+	.copyRText{
 		p{
+			padding-top: 20px;
+			color: #747474;
+			font-family: 'Pt Sans', sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+		}
+	}
+	.tos{
+		text-align: right;
+		p, a{
 			padding-top: 20px;
 			color: #747474;
 			font-family: 'Pt Sans', sans-serif;

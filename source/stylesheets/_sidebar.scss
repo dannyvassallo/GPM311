@@ -6,7 +6,7 @@
 	top: 0px;
 	z-index: 9999;
 	background-color: white;
-	right: -9999px;
+	left: -9999px;
 }
 
 ul.sidebar{
@@ -43,7 +43,7 @@ ul.sidebar li{
 	background-color: #29ABE2;
 	width: 80px;
 	text-align: center;
-	float: right;
+	float: left;
 }
 
 /* End Sidebar Css */
