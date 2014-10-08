@@ -4,6 +4,23 @@
 	text-align: center;
 	padding-top: 126px;
 	max-width: 1020px;
+	margin: 0 auto;
+	.city{
+		width: 100%;
+		height: 117px;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		background-image: url(http://dannyvassallo.com/MuseExport/images/cityscape.png);
+		background-position-x: 300px;
+		.icon{
+			position: relative;
+			height: 78px;
+			width: 125px;
+			background-image: url(http://dannyvassallo.com/MuseExport/images/logo.png);
+			background-size: cover;
+			margin-left: 120px;
+		}
+	}
 }
 
 /* End Masthead Css */
