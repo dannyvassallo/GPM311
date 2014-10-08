@@ -11,6 +11,7 @@ h2{
     padding-top: 90px;
     font-size: 52px;
     font-family: "PT Sans", sans-serif;
+    padding-bottom: 30px;
 }
 .item{
     background: #333;    
@@ -18,11 +19,19 @@ h2{
     height: 300px !important;
 }
 
-.slide1{
+.slide{
 	height: 100%;
-	background-image: url(http://dannyvassallo.com/MuseExport/images/cityscape.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
+.slide1{
+		background-image: url(http://dannyvassallo.com/MuseExport/images/cityscape.jpg);
+}
+
+.carousel-indicators{
+	left: 30% !important;
+	margin-left: -50% !important;
+
+}
 /* End Slider Css */
