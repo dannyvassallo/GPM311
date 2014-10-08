@@ -9,14 +9,43 @@
 		max-width: 1029px;
 		.row{
 			padding-top: 20px;
-			p{
-				padding-top: 20px;
-				color: #747474;
-				font-family: 'Pt Sans', sans-serif;
-				font-size: 13px;
-				font-weight: 400;
-				padding-right: 20px;
-			}
+			padding-bottom: 20px;
+				p{
+					padding-top: 18px;
+					color: #747474;
+					font-family: 'Pt Sans', sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					padding-right: 20px;
+				}
+				h4{
+					color: white;
+					text-transform: uppercase;
+					color: #FFFFFF;
+					font-family: 'pt sans', sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 0px;
+
+				}
+				ul{
+					list-style: none;
+					padding-left: 0;
+						.faqLi{
+							border-bottom: solid 1px #747474;
+						}
+						i{
+							color: #747474;
+							padding-right: 20px;
+						}
+						a{
+							text-decoration: none;
+						}
+
+				}
+				.request, .request a{
+					color: white;
+				}
 		}
 	}
 }
