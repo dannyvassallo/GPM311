@@ -13,6 +13,8 @@
 			color: #FFFFFF !important;
 		} 
 		.container{
+			max-width: 800px;
+			margin-left: 5px;
 				#button1{
 					text-align: center;
 				}
@@ -30,14 +32,14 @@
 					font-size: 30px;
 					font-weight: 700;
 					letter-spacing: 0px;
-					padding: 0px 0px 9px;
+					padding: 0px 0px 0px;
 				}
 				.btn.btn-default{
 					border-color: #4E7844 !important;
 					background-color: #A0CE4E !important;
 					text-align: left;
 					border-radius: 0px !important;
-					margin-top: 20px;
+					margin-top: 30px;
 						&:hover{
 							border-color: #A0CE4E !important;
 							background-color: #4E7844 !important;							
@@ -48,7 +50,8 @@
 							color: #fff !important;
 							font-weight: 400;
 							letter-spacing: 1px;
-							padding: 12px 25px 0 25px;
+							padding: 2px 15px 0 15px;
+							margin-bottom: 3px !important;
 						}
 				}
 		}
@@ -62,8 +65,9 @@
 }
 
 #storeicon{
-	text-align: center;
+	text-align: right;
 	img{
+		margin-top: -5px;
 		padding-bottom: 10px;
 	}
 }
@@ -85,5 +89,4 @@
 		margin-bottom: 20px;
 	}
 }
-
 /*Index CSS*/

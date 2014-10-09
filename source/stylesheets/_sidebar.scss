@@ -34,16 +34,20 @@ ul.sidebar li{
 
 .top{
 	background-color: #646464;
-	height: 80px;
+	height: 65px;
 	text-align: right;
 }
 
 .navMenux{
-	height: 80px;
+	height: 65px;
 	background-color: #29ABE2;
-	width: 80px;
+	width: 69px;
 	text-align: center;
 	float: left;
+		img{
+			height: 60px;
+			margin-left: -4px;
+		}
 }
 
 /* End Sidebar Css */
