@@ -1,5 +1,7 @@
 /* Masthead Css */
-
+#headerwrap{
+	width: 100%;
+}
 #header{
 	text-align: center;
 	padding-top: 126px;
@@ -23,4 +25,10 @@
 	}
 }
 
+
+.header-divider{
+		background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.3) 0px, rgba(255, 255, 255, 0) 90%);
+		height: 50px;
+		margin-bottom: -50px;
+}
 /* End Masthead Css */
