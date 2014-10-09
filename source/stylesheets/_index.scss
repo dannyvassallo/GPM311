@@ -89,4 +89,56 @@
 		margin-bottom: 20px;
 	}
 }
+
+.ctabtn1{
+	padding-left: 0px;
+	padding-right: 2px;
+}
+
+.ctabtn2{
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+.btn.btn-default.residentsbtn, .btn.btn-default.govtbtn{
+	text-align: center;
+	border-radius: 0px !important;
+	margin-top: 30px;
+	width: 100%;
+		p{
+			font-family: 'Arial, Helvetica Neue, Helvetica', sans-serif !important;
+			font-size: 14px;
+			color: #fff !important;
+			font-weight: 400;
+			letter-spacing: 1px;
+			padding: 10px 15px 0 15px;
+			margin-bottom: 10px !important;
+		}
+	}
+
+.residentsbtn{
+	border-color: #4E7844 !important;
+	background-color: #A0CE4E !important;
+			&:hover{
+				border-color: #A0CE4E !important;
+				background-color: #4E7844 !important;							
+		}
+};
+
+.govtbtn{
+	border-color: #407ba4 !important;
+	background-color: #29ABE2 !important;
+			&:hover{
+				border-color: #29ABE2 !important;
+				background-color: #407ba4 !important;							
+		}	
+};
+
+#cta{
+	max-width: 1020px;
+	padding-top: 10px;
+		.row{
+			text-align: center;	
+		}
+}
 /*Index CSS*/
