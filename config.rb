@@ -47,7 +47,7 @@ configure :development do
 #   end
 # end
 
-activate :directory_indexes
+set :index_file, "default.html"
 
 set :css_dir, 'stylesheets'
 
@@ -64,10 +64,10 @@ configure :build do
   # activate :minify_javascript
 
   # Enable cache buster
-   activate :asset_hash
+  # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
