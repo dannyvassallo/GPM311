@@ -47,6 +47,8 @@ configure :development do
 #   end
 # end
 
+activate :directory_indexes
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
