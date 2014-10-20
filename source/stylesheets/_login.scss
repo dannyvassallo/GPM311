@@ -1,0 +1,31 @@
+#loginsection{
+	margin: 100px 0 100px 0;
+	.container{
+		max-width: 600px;
+		.form-horizontal{
+			background-color: red;
+			padding: 20px;
+			legend, label{
+				color: white;
+			}
+			.btn.btn-default{
+			border-color: #407ba4 !important;
+			background-color: #29ABE2 !important;
+			text-align: left;
+			border-radius: 0px !important;
+			font-family: 'Arial, Helvetica Neue, Helvetica', sans-serif !important;
+			font-size: 14px;
+			color: #fff !important;
+			font-weight: 400;
+			letter-spacing: 1px;
+			padding: 2px 15px 0 15px;
+			margin-bottom: 3px !important;
+			color: white;
+				&:hover{
+					border-color: #29ABE2 !important;
+					background-color: #407ba4 !important;							
+				}	
+			}
+		}
+	}
+}
