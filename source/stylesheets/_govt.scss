@@ -1,0 +1,30 @@
+/*************************************************/
+/* Govt Css */
+
+
+#govt{
+	margin: 0 auto;
+	overflow: hidden;
+	.container{
+		max-width: 1020px;
+		.head{
+			margin-top: 50px;
+		}
+		h3{
+			color: white;
+			color: #646464 !important;
+			font-family: 'Oswald', sans-serif;
+			line-height: 53px;
+			font-size: 20px;
+			font-weight: thin;
+			padding: 0 20px 0 20px;
+		}
+		p{
+			color: #646464 !important;
+			padding: 0 20px 0 20px;
+		}
+	}
+}
+
+/* End Govt Css */
+/*************************************************/
