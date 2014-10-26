@@ -1,3 +1,42 @@
 #faq{
 	max-width: 1020px;
+	margin-top: 50px;
+	h3{
+		color: white;
+		color: #FFFFFF;
+		font-family: 'Oswald', sans-serif;
+		line-height: 53px;
+		font-size: 20px;
+		font-weight: thin;
+	}
+	h2{
+		color: #646464;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		letter-spacing: 0px;
+		padding: 0px 0px 0px;
+	}
+	p, a{
+		color: #747474;
+		font-family: 'pt sans', sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		padding: 0px;
+	}
+	p{
+		color: #747474;
+	}
+	a{
+		color: #646464;
+	}
+	.ui-state-default{
+		background: #29ABE2 !important;
+	}
+	.ui-accordion-header-icon{
+		display: none;
+	}
+	.ui-accordion .ui-accordion-icons{
+		padding-left: 20px;
+	}
 }
